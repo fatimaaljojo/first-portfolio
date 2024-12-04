@@ -1,0 +1,1053 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    padding: 0px 80px;
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+gap: 12%;
+margin-top:2.9%;
+width: 100%;
+
+}
+
+nav .bars{
+    position: absolute;
+    top: 1.7rem;
+    right: 2rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20px;
+    height: 15px;
+}
+nav .bars .bar{
+    width: 100%;
+    height: 3px;
+    background-color: #24AB70;
+    border-radius: 10px;
+}
+
+nav .list {
+
+    display: flex;
+    gap: 42px;
+    list-style-type: none;
+    padding-top:8px ;
+}
+nav .list li a{
+    text-decoration: none;
+    color: black;
+    Line-height:24px;
+    
+}
+nav .list li a:hover{
+    color: #24AB70;
+}
+nav .login {
+    border-radius: 35px;
+    background-color: #24AB70;
+    color: white;
+    border: none;
+    font-size: 14px;
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+nav .login:hover {
+    color:#24AB70;
+    background-color: rgba(36, 171, 112, 0.1);
+}
+.header{
+    display:flex;
+    flex-direction: column;
+    margin-top: 2.9% ;
+    max-width: 100%;
+    height: 93vh;
+    background: rgba(36, 171, 112, 0.04);
+    border-radius: 50px 50px 0px 0px;
+}
+.header .info{
+    display: flex;
+}
+.header .find-us{
+width: 50%;
+}
+
+.header .find-us .stay{
+
+    font-size: 55px;
+    line-height: 80px;
+    font-weight: 600;
+    margin-top: 13.41%;
+    margin-left: 60px;
+
+}
+
+.header .find-us .lor{
+    width: 515px;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #555555;
+}
+.header img{
+    width: 50%;
+    height: 100%;
+}
+.header .find-us .vid{
+    display: flex;
+}
+.header .find-us .vid .trang{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    color: #24AB70;
+    margin-left: 60px;
+    margin-top: 50px;
+    background-color: #FFFFFF; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .find-us .vid a{
+    text-decoration: none;
+}
+
+.header .find-us .vid .trang:hover{
+color: #FFFFFF;
+background-color: #24AB70;
+}
+.header .find-us .vid .watch{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 16px;
+    margin-top: 63px;
+}
+
+.search{
+    position: relative;
+    display: flex;
+    width: 80%;
+    height: 100px;
+    border-radius: 280px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 22px 38px rgba(0, 34, 19, 0.08);
+    transform: translateY(-145%); 
+    margin:0 auto;
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+.search .location ,
+.search .check-in ,
+.search .check-out ,
+.search .rooms{
+display: flex;
+flex-direction: column;
+align-items: center;
+border-right: 1px solid #E8E8E8;
+padding-right: 38px;
+padding-left: 33px;
+
+}
+.search .location label ,
+.search .check-in label ,
+.search .check-out label,
+.search .rooms label{
+font-size: 20px;
+line-height: 24px;
+margin-left: 10px;
+
+
+}
+.search .location i ,
+.search .check-in i ,
+.search .check-out i,
+.search .rooms i{ 
+    color: #24AB70;
+}
+.search .location #lo ,
+.search .check-in #in ,
+.search .check-out #out,
+.search .rooms #room{
+    width: 108px;
+    font-size: 14px;
+    border: none;
+    margin-top: 8px;
+    padding-left: 23px;
+    outline: none;
+}
+.search .rooms{
+    border: none;
+}
+.search .btn{
+width: 200px;
+height: 100px;
+background-color: #24AB70;
+border-radius: 280px;
+border: none;
+font-Size:18px;
+Line-height:24px;
+color: #FFFFFF;
+position: absolute;
+top: 0;
+right: -20px;
+}
+.search .btn i {
+    margin-right: 12px;
+}
+.popular{
+    width: 100%;
+    margin-top: 120px;
+}
+
+.popular span{
+
+font-size: 40px;
+font-weight: 600;
+line-height: 60px;
+text-align: left;
+
+}
+
+.popular p{
+    width: 409px;
+color: #555555;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+margin-top: 20px;
+}
+.popular .group{
+    display: flex;
+    justify-content: space-between;
+}
+.popular .view{
+margin-top: 8px;
+height: 40px;
+width: 109px;
+border-radius: 280px;
+background: #24AB701A;
+color: #24AB70;
+text-decoration: none;
+padding: 6px 26px;
+font-size: 15px;
+line-height: 28px;
+text-align: left;
+
+}
+.popular .view:hover{
+    color:white;
+    background-color:  #24AB70;;
+}
+.popular .images{
+    max-width: 96%;
+    display: flex;
+    gap: 23px;
+    margin-top: 40px;
+}
+.popular .images .first,
+.popular .images .second,
+.popular .images .third{
+background: #FAFAFA;
+border-radius: 16px;
+width: 33.3%;
+height: 460px;
+}
+.popular .images .first img ,
+.popular .images .second img,
+.popular .images .third img {
+    margin-bottom: 24px;
+    width: 100%;
+}
+.popular .images .first span,
+.popular .images .second span,
+.popular .images .third span{
+color: #24AB70;
+font-size: 12px;
+line-height: 18px;
+margin-left: 24px;
+}
+.popular .images .first .park,
+.popular .images .second .soho,
+.popular .images .third .london{
+font-weight: 600;
+font-size: 24px;
+color: #222222;
+line-height: 30px;
+margin-left: 24px;
+margin-top: 8px;
+}
+.popular .images .first .star,
+.popular .images .second .star,
+.popular .images .third .star{
+    display: flex;
+    justify-content: flex-start;
+}
+.popular .images .first .star i,
+.popular .images .second .star i,
+.popular .images .third .star i{
+color: #F95F5F;
+;
+}
+.popular .images .first .star .price,
+.popular .images .second .star .price,
+.popular .images .third .star .price{
+    width: 142px;
+    height: 18px;
+    border-right: 1px solid #DDDDDD;
+    font-size: 16px;
+    padding-right: 30px;
+    margin-left: 24px;
+    margin-top: 26.33px;
+    line-height: 18px;
+}
+.popular .images .first .group-2,
+.popular .images .second .group-2,
+.popular .images .third .group-2{
+    margin: 24px 12px 0px 30px;
+    display: flex;
+}
+.popular .images .first .group-2 .num, 
+ .popular .images .second .group-2 .num, 
+.popular .images .third  .group-2 .num{ 
+    color: #555555;
+ }
+.facilities{
+    width: 100%;
+    margin-top: 147px;
+    display: flex;
+
+}
+.facilities .left .provide {
+    margin-right: 24px;
+    width: 100%;
+    font-size: 37px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: left;
+    color: #000;
+}
+.facilities .left{
+    width: 35%;
+}
+.facilities .right{
+    width: 65%;
+}
+.facilities .left .group-3 p{
+    color: #555555;
+    margin-top: 20px;
+    line-height: 25px;
+    margin-right: 43px;
+}
+.facilities .left .group-3 .contact-btn{
+
+margin-top:30px ;
+margin-bottom: 25px;
+padding:16px 37px ; 
+border: none;
+background: #24AB70;
+border-radius: 35px;
+line-height:24px;
+color: #FFFFFF;
+font-size: 17px;
+}
+.facilities .left .group-3 .contact-btn:hover{
+    color:#24AB70;
+    background: rgba(36, 171, 112, 0.1);
+}
+.facilities .right .up{
+height: 50%;
+    display: flex;
+    gap: 24px;
+
+}
+.facilities .right .down{
+margin-top: 24px;
+    display: flex;
+    gap: 24px;
+    height: 50%;
+}
+
+.facilities .right .square{
+transition:  0.2s ;
+background: #FFFFFF;
+border: 1px solid #E8E8E8;
+border-radius: 8px;
+width: 25%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.facilities .right .square p{ 
+margin-top: 25%;
+} 
+
+.facilities .right .square:hover{
+    box-shadow: 0px 23px 30px rgba(0, 29, 16, 0.05);
+    transform: translateY(-10px);
+   
+}
+.discover{
+    width: 100%;
+    display: flex;
+    margin-top: 120px;
+    background: #F4FBF8;
+    border-radius: 16px;
+}
+.discover .explore{
+    margin-left: 70px;
+    margin-right: 85px;
+    width:60% ;
+}
+.discover .explore h2{
+font-weight: 600;
+font-size: 34px;
+line-height: 50px;
+margin-top: 76px;
+}
+.discover .explore p{
+    margin-top: 24px;
+    color: #555555;
+    font-size: 14px;
+    line-height: 25px;
+}
+.discover .explore .explore-btn{
+background: #24AB70;
+border-radius: 35px;
+color: #FFFFFF;
+padding: 16px 32px;
+text-decoration: none;
+border: none;
+margin-top: 40px;
+margin-bottom: 25px;
+}
+.discover img{
+    width: 50%;
+}
+.discover .explore .explore-btn:hover{
+        color:#24AB70;
+    background: rgba(36, 171, 112, 0.1);
+}
+.slider-cont{
+display: flex;
+margin-top: 120px;
+border-radius: 16px;
+background: #FAFAFA;
+position: relative;
+}
+.slider-cont .who-i-am{
+    width: 70%;
+    position: relative;
+    margin-right: 73px;
+}
+.slider-cont .who-i-am p{
+    margin-top: 43px;
+    margin-left: 80px;
+    color: #555555;
+    line-height: 28px;
+   max-width: 628px;
+
+}
+.slider-cont .who-i-am h2{
+    margin-top: 57px;
+    margin-left: 80px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.slider-cont .alex{
+    border-radius: 0px 16px 16px 0px;   
+}
+.slider-cont .who-i-am .business{
+    margin-top: 12px;
+}
+.slider-cont .who-i-am .top{
+    position: absolute;
+    top: 10%;
+    left: 7%;
+}
+.slider-cont .who-i-am .bottom{
+    position: absolute;
+    top: 39%;
+    right: -1%;
+}
+.slider-cont .next-btn,
+.slider-cont .prev-btn
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    box-shadow: 4px 2px 7px rgba(0, 35, 20, 0.03);
+    color: #24AB70;
+    border: none;
+    position: absolute;
+    font-size: 17px;
+    
+}
+
+.slider-cont .next-btn{
+    top: 50%;
+    right: 0;
+    transform: translateX(50%);
+}
+.slider-cont .prev-btn{
+    top: 50%; 
+    left: 0;
+    transform: translateX(-50%);
+
+}
+
+.slider-cont .prev-btn:hover{
+    background-color: #24AB70;
+    color: #FFFFFF;
+    cursor:pointer;
+}
+.slider-cont .next-btn:hover{
+    background-color: #24AB70;
+    color: #FFFFFF;
+    cursor:pointer;
+}
+.company-logo{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+    width: 80%;
+}
+.map {
+    width: 100%;
+    position: relative;
+}
+.map .iframe-map{
+    width: 100%;
+}
+.map .location{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    width:90%;
+   
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 35px 66px;
+    position: absolute;
+    top: 50%;
+margin-left: 43px;
+margin-right: 43px;
+}
+.map .location h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.map .location p{
+    width:510px;
+    margin-right: 116px;
+    line-height: 25px;
+}
+.map .location .all{
+    display: flex;
+}
+.map .location .all input{
+    background: #FAFAFA;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    width: 312px;
+    padding-left: 24px;
+    width: 60%;
+    height: 90%;
+}
+.ex{
+    width: 40%;
+    display: flex;
+}
+.map .location .all .contact-btn{
+    width: 35%;
+background: #24AB70;
+border-radius: 50px;
+font-weight: 600;
+line-height: 24px;
+text-align: center;
+padding: 16px 32px;
+border: none;
+color: #FFFFFF;
+position: relative;
+right: 12%;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 128px;
+    width: 100%;
+    margin-bottom: 63px;
+}
+
+    .footer .icons{
+        width: 22%;
+    }
+
+.footer .icons .social{
+    display: flex;
+    margin-top: 32px;
+    gap: 30px;
+}
+.footer .icons p{
+
+    margin-top: 24px;
+    margin-bottom: 25px;
+    Line-height: 24px;
+    color: #555555;
+    
+
+}
+.footer .home h2,
+.footer .help h2,
+.footer .get-app h2{
+    line-height: 32px;
+    color: #222222;
+    font-Weight:400;
+    margin-bottom: 24px;
+
+}
+.footer .home ul,
+.footer .help ul,
+.footer .get-app ul{
+    list-style-type: none;
+    
+}
+.footer .home ul li a,
+.footer .help ul li a,
+.footer .get-app ul li a{
+    text-decoration: none;
+    color: #555555;
+
+}
+.footer .home ul li ,
+.footer .help ul li ,
+.footer .get-app ul li {
+
+    margin-bottom: 16px;
+}
+.footer .home ul li a:hover,
+.footer .help ul li a:hover,
+.footer .get-app ul li a:hover{
+    color: #24AB70;
+}
+
+
+@media (max-width:800px) {
+    body{
+        padding: 0px 20px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav .bars{
+        display:flex ;
+    }
+    nav .list{
+        margin-top: 30px;
+        flex-direction: column;
+        display: none;
+        gap: 24px;
+        margin-bottom:2rem;
+    }
+    nav .login{
+        display: none;
+        background-color:#F4FBF8;
+        color: #24AB70;
+        border-radius: 0px;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .header img{
+        display: none;
+    }
+    .header{
+        height: fit-content;
+    
+    }
+    .header .find-us{
+        width: 100%;
+    }
+    .header .find-us .stay{
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+    .header .find-us .lor{
+        margin:0 20px;
+        font-size: 16px;
+        width: 100%;
+    }
+    .header .find-us .vid .watch{
+        margin-top: 30px;
+        font-size: 16px;
+    }
+    .header .find-us .vid .trang{
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+       
+        .search{
+        margin-top: 30px;
+        flex-direction: column;
+        border-radius: 10px;
+        width: 95%;
+        height: max-content;
+        padding-top: 40px;
+        transform: translateY(0);
+        }
+
+        .search div{
+            width: 100%;  
+        }
+        
+        .search .location ,
+        .search .check-in ,
+        .search .check-out ,
+        .search .rooms{
+            width: 95%;
+            margin: auto;
+            border-right: none;
+            align-items: flex-start;
+            margin-bottom: 10px;
+            border-bottom: #DDDDDD solid 1px;
+            padding-left: 12px;
+        }
+
+
+        .search .location label ,
+        .search .check-in label ,
+        .search .check-out label,
+        .search .rooms label{
+            font-size:16px ;
+        }
+
+
+        .search .location #lo ,
+        .search .check-in #in ,
+        .search .check-out #out,
+        .search .rooms #room{
+            padding-left: 25px;
+            margin-bottom: 20px;
+        }
+        .search .location #lo:focus ,
+        .search .check-in #in:focus ,
+        .search .check-out #out:focus,
+        .search .rooms #room:focus{
+           border: none;
+        }
+
+        .search .btn{
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            position:static;
+            margin: 0 auto;
+            transform: translateY(90%);
+            overflow: hidden;
+        }
+        .search .btn i{
+            margin: 25px auto;
+        }
+        .popular span{
+            font-size: 30px;
+        }
+        .popular .group{
+
+            display: block;
+        }
+        .popular .group p{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .popular .images {
+            gap: 12px;
+        }
+        .popular .images .first,
+        .popular .images .second,
+        .popular .images .third{
+            height: 370px;
+        }
+        .popular .images .first span,
+        .popular .images .second span,
+        .popular .images .third span{
+            margin-left: 12px;
+        }
+        .popular .images .first img ,
+        .popular .images .second img,
+        .popular .images .third img { 
+        margin-bottom: 12px;
+        }
+        .popular .images .first .park,
+        .popular .images .second .soho,
+        .popular .images .third .london{
+            width: 190px;
+        font-size: 20px;
+        margin-left: 12px;
+        }
+        .popular .images .first .star,
+        .popular .images .second .star,
+        .popular .images .third .star{
+        flex-direction: column;
+        margin-bottom: 12px;
+
+        }
+        .popular .images .first .group-2,
+        .popular .images .second .group-2,
+        .popular .images .third .group-2{
+            margin: 10px 12px 0px 18px;
+         }
+
+         .popular .images .first .star .price,
+        .popular .images .second .star .price,
+        .popular .images .third .star .price{
+        display: block;
+        margin-left: 18px;
+        margin-top: 13px;
+        border-right: 0px;
+        } 
+        .facilities {
+            flex-direction: column;
+        }
+        .facilities .left {
+            width: 100%;
+        }
+        .facilities .left .provide {
+            font-size: 35px;
+        }
+        .facilities .left .group-3 p {
+            width: 100%;
+        }
+        .facilities .right {
+            width: 100%;
+        }
+        .facilities .right .up ,
+        .facilities .right .down{
+            gap: 11px;
+        }
+        .facilities .right .square{
+            padding-top: 35px;
+            padding-bottom: 35px;
+            font-size: 14px;
+        }
+        .discover {
+            flex-direction: column;
+        }
+        .discover img {
+            width: 100%;
+        }
+        .discover .explore {
+            margin-left: 30px;
+            width: 95%;
+        }
+        .slider-cont {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .slider-cont .who-i-am {
+            width: 92%;
+            text-align: center;
+            height: 50%;
+            margin-bottom: 15px;
+        }
+        .slider-cont .alex {
+            margin-top:33px ;
+        }
+        .slider-cont .alex {
+            height: 50%;
+            width: 50%;
+        }
+        .slider-cont .who-i-am .top,
+        .slider-cont .who-i-am .bottom{
+            display: none;
+        }
+        .company-logo {
+            flex-direction: column;
+            width: 15%;
+            margin: 40px auto;
+     
+        }
+        .company-logo img {
+            margin-top: 30px;
+        }
+        .map .location .all {
+            flex-direction: column;
+           
+        }
+        .map .location {
+            top: 40%;
+            padding: 31px 26px;
+        }
+        .ex{
+            width: 100%;
+            margin-top: 40px;
+         
+        }
+        .map .location .all input {
+           padding-top: 15px;
+           padding-bottom: 15px;
+            border-radius: 0;
+            width: 50%;
+        }
+        .map .location .all .contact-btn {
+            border-radius: 0;
+            padding: 10px 32px;
+            width: 50%;
+            right: 0;
+        }
+        .footer{
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            margin-top: 60px;
+            margin-left: 30px;
+        }
+        .footer .icons,
+        .footer .home,
+        .footer .get-app,
+        .footer .help{
+            width: 25%;
+            margin-right: 5px;
+        }
+        .footer .icons{
+            margin-right: 140px;
+            margin-bottom: 40px;
+        }
+}
+@media (max-width:450px) {
+    .header .find-us .stay {
+        line-height: 30px;
+        margin-top: 50px;
+        margin-right: 30px;
+    }
+    .popular span {
+        font-size: 27px;
+    }
+
+    .popular .images {
+        flex-direction: column;
+    }
+    .popular .images .first, 
+    .popular .images .second,
+     .popular .images .third {
+        width: 100%;
+        height: 400px;
+     }
+     .popular .images .first .park,
+      .popular .images .second .soho,
+       .popular .images .third .london {
+        width: 100%;
+       }
+       .facilities {
+        margin-top: 90px;
+       }
+       .facilities .left .provide {
+        font-size: 28px;
+    }
+    .facilities .left .group-3 p {
+
+        font-size: 14px;
+    }
+        .facilities .left .group-3 .contact-btn {
+            padding: 12px 25px;
+        }
+        .facilities .right .up, 
+        .facilities .right .down {
+            flex-wrap: wrap;
+        }
+
+        .facilities .right .square {
+            width: 45%;
+        }
+        .discover .explore p {
+            width: 87%;
+        }
+        .discover .explore h2 {
+            font-size: 26px;
+        }
+        .discover .explore .explore-btn {
+            font-size: 17px;
+            padding: 14px 20px;
+        }
+        .slider-cont .alex {
+            width: 100%;
+            margin-top: 0px;
+            border-radius: 0;
+        }
+        .slider-cont{
+            border-radius: 0;
+        }
+        .slider-cont .next-btn,
+         .slider-cont .prev-btn {
+            top: 15%;
+         }
+         .slider-cont .who-i-am p {
+            margin-left: 40px;
+            width: 100%;
+         }
+         .slider-cont .who-i-am h2 {
+            margin-top: 20px;
+            font-weight: 500;
+         }
+         .company-logo {
+            width: 27%;
+         }
+         .map {
+            display: flex;
+            justify-content: center;
+            
+         }
+         .map .location {
+            width: 90%;
+            top: 8%;
+            padding: 31px 14px;
+         }
+         .map .location h2 {
+            font-size: 30px;
+         }
+         .map .location p {
+            width: 100%;
+         }
+         .ex{
+            flex-direction: column;
+            gap: 9px;
+         }
+         .map .location .all input ,
+         .map .location .all .contact-btn {
+            width: 100%;
+         }
+         .footer .icons {
+            width: 100%;
+            margin-right: 59px;
+         }
+    
+          .footer .home,
+           .footer .get-app,
+            .footer .help {
+            width: 48%;
+            margin-bottom: 25px;
+         }
+        }
